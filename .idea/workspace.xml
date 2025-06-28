@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7ab24920-7938-4c32-a337-c3b0de81ee95" name="Changes" comment="style: use other avatar image" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;schuggermi&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:schuggermi/my_portfolio.git&quot;,
+    &quot;accountId&quot;: &quot;a4b3bb74-c076-431d-a536-7ea7f9bef037&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2z4ndADkhiuYQ5J6UMtRC3Ngry7" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showScratchesAndConsoles" value="false" />
+    <option name="sortKey" value="BY_TIME_DESCENDING" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JavaScript Debug.index.html.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "/home/schugge/PycharmProjects/my_portfolio/img",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "vcs.Git",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "HTML"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/img" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-b26f3e71634d-JavaScript-PY-251.26094.141" />
+        <option value="bundled-python-sdk-9f8e2b94138c-36ea0e71a18c-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-251.26094.141" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7ab24920-7938-4c32-a337-c3b0de81ee95" name="Changes" comment="" />
+      <created>1750999297976</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1750999297976</updated>
+      <workItem from="1750999300091" duration="10347000" />
+      <workItem from="1751020294781" duration="3000" />
+      <workItem from="1751020547767" duration="16553000" />
+      <workItem from="1751092413754" duration="1178000" />
+    </task>
+    <task id="LOCAL-00001" summary="testing styles">
+      <option name="closed" value="true" />
+      <created>1750999769822</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1750999769822</updated>
+    </task>
+    <task id="LOCAL-00002" summary="testing styles">
+      <option name="closed" value="true" />
+      <created>1751000292001</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1751000292001</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: adds navbar and hero-section">
+      <option name="closed" value="true" />
+      <created>1751025981385</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1751025981385</updated>
+    </task>
+    <task id="LOCAL-00004" summary="ref: adjust avatar image size">
+      <option name="closed" value="true" />
+      <created>1751026147389</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1751026147389</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat: adds timeline">
+      <option name="closed" value="true" />
+      <created>1751054605492</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1751054605492</updated>
+    </task>
+    <task id="LOCAL-00006" summary="styling: fix text">
+      <option name="closed" value="true" />
+      <created>1751054702910</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1751054702910</updated>
+    </task>
+    <task id="LOCAL-00007" summary="style: use other avatar image">
+      <option name="closed" value="true" />
+      <created>1751092477125</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1751092477125</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="testing styles" />
+    <MESSAGE value="feat: adds navbar and hero-section" />
+    <MESSAGE value="ref: adjust avatar image size" />
+    <MESSAGE value="feat: adds timeline" />
+    <MESSAGE value="styling: fix text" />
+    <MESSAGE value="style: use other avatar image" />
+    <option name="LAST_COMMIT_MESSAGE" value="style: use other avatar image" />
+  </component>
+</project>
