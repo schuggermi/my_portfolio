@@ -2,82 +2,83 @@
 <html class="no-js" lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Michael Schuchowski | Software Developer</title>
-  <link rel="stylesheet" href="css/style.css">
-  <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css"/>
-  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-  <!--  <link href="https://cdn.jsdelivr.net/npm/daisyui@5/themes.css" rel="stylesheet" type="text/css"/>-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Michael Schuchowski | Software Developer</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css"/>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!--  <link href="https://cdn.jsdelivr.net/npm/daisyui@5/themes.css" rel="stylesheet" type="text/css"/>-->
 
-  <meta name="description" content="Transforming Ideas into Scalable, Efficient Solutions.">
+    <meta name="description" content="Transforming Ideas into Scalable, Efficient Solutions.">
 
-  <meta property="og:title" content="Michael Schuchowski | Software Developer">
-  <meta property="og:type" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
-  <meta property="og:image:alt" content="">
+    <meta property="og:title" content="Michael Schuchowski | Software Developer">
+    <meta property="og:type" content="">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+    <meta property="og:image:alt" content="">
 
-  <link rel="icon" href="/favicon.ico" sizes="any">
-  <link rel="icon" href="/icon.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="icon.png">
+    <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="icon" href="/icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="icon.png">
 
-  <link rel="manifest" href="site.webmanifest">
-  <meta name="theme-color" content="#fafafa">
+    <link rel="manifest" href="site.webmanifest">
+    <meta name="theme-color" content="#fafafa">
 </head>
 
-<body class="min-h-screen max-w-7xl mx-auto flex flex-col gap-40">
+<body class="min-h-screen">
 
 <!-- Navbar -->
-<div class="fixed top-0 bg-base-100 z-50 h-34 navbar bg-base-100 shadow-sm py-4 px-0">
-  <div class="flex-1">
-    <a class="text-xl uppercase font-bold leading-none">
-      <span class="text-primary">Michael</span>
-      <br>Schuchowski
-    </a>
-  </div>
-  <div class="flex-none">
-    <ul class="menu menu-horizontal px-1">
-      <!--      <li><a class="text-lg">About</a></li>-->
-      <!--      <li><a class="text-lg">Portfolio</a></li>-->
-    </ul>
-  </div>
+<div class="fixed top-0 bg-base-100 z-50 h-18 bg-base-100 shadow-sm w-full">
+    <div class="container mx-auto navbar p-2 h-full">
+        <div class="flex-1">
+            <a class="text-xl uppercase font-bold leading-none">
+                <span class="text-primary">Michael</span>
+                <br>Schuchowski
+            </a>
+        </div>
+        <div class="flex-none">
+            <ul class="menu menu-horizontal px-1">
+            </ul>
+        </div>
+    </div>
 </div>
 
-<!-- Hero -->
-<div class="hero mt-34 pt-40">
-  <div class="hero-content flex-col lg:flex-row gap-20">
-    <div class="relative max-w-[250px]">
-      <img
-        src="img/avatar.png"
-        class="w-[250px] h-[250px] object-cover rounded-full shadow-2xl"
-        alt="Avatar"
-      />
-      <svg
-        viewBox="0 0 250 250"
-        class="absolute bottom-0 left-0 w-full h-full text-primary pointer-events-none">
-        <defs>
-          <!-- Arc for text path -->
-          <path
-            id="circlePath"
-            d="
+<div class="container mx-auto flex flex-col gap-20 lg:gap-40 py-18">
+    <!-- Hero -->
+    <div class="hero">
+        <div class="hero-content flex-col lg:flex-row gap-20 mt-18">
+            <div class="relative max-w-[250px]">
+                <img
+                        src="img/avatar.png"
+                        class="w-[250px] h-[250px] object-cover rounded-full shadow-2xl"
+                        alt="Avatar"
+                />
+                <svg
+                        viewBox="0 0 250 250"
+                        class="absolute bottom-0 left-0 w-full h-full text-primary pointer-events-none">
+                    <defs>
+                        <!-- Arc for text path -->
+                        <path
+                                id="circlePath"
+                                d="
         M 125, 125
         m -110, 0
         a 110,110 0 1,0 220,8
       "
-          />
+                        />
 
-          <linearGradient id="fadeGradient" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="0%" stop-color="transparent"/>
-            <stop offset="60%" stop-color="transparent"/>
-            <stop offset="75%" stop-color="oklch(72% 0.219 149.579)"/>
-            <stop offset="100%" stop-color="oklch(72% 0.219 149.579)"/>
-          </linearGradient>
+                        <linearGradient id="fadeGradient" x1="0" y1="0" x2="0" y2="1">
+                            <stop offset="0%" stop-color="transparent"/>
+                            <stop offset="60%" stop-color="transparent"/>
+                            <stop offset="75%" stop-color="oklch(72% 0.219 149.579)"/>
+                            <stop offset="100%" stop-color="oklch(72% 0.219 149.579)"/>
+                        </linearGradient>
 
-          <!-- Create a mask for the gradient -->
-          <mask id="fadeMask">
-            <path
-              d="
+                        <!-- Create a mask for the gradient -->
+                        <mask id="fadeMask">
+                            <path
+                                    d="
           M 0,0
           L 250,0
           L 250,250
@@ -88,331 +89,300 @@
           a 95,95 0 1,0 190,0
           a 95,95 0 1,0 -190,0
         "
-              fill="white"
-            />
-          </mask>
-        </defs>
+                                    fill="white"
+                            />
+                        </mask>
+                    </defs>
 
-        <!-- Background ring with mask -->
-        <circle
-          cx="125"
-          cy="125"
-          r="125"
-          fill="url(#fadeGradient)"
-          mask="url(#fadeMask)"
-        />
+                    <!-- Background ring with mask -->
+                    <circle
+                            cx="125"
+                            cy="125"
+                            r="125"
+                            fill="url(#fadeGradient)"
+                            mask="url(#fadeMask)"
+                    />
 
-        <!-- Text -->
-        <text
-          fill="oklch(12% 0.042 264.695)"
-          font-size="24"
-          font-weight="bold"
-          font-family="Arial, sans-serif"
-          letter-spacing="2.5"
-        >
-          <textPath href="#circlePath" startOffset="50%" text-anchor="middle" dominant-baseline="middle">
-            #OPENTOWORK
-          </textPath>
-        </text>
-      </svg>
+                    <!-- Text -->
+                    <text
+                            fill="oklch(12% 0.042 264.695)"
+                            font-size="24"
+                            font-weight="bold"
+                            font-family="Arial, sans-serif"
+                            letter-spacing="2.5"
+                    >
+                        <textPath href="#circlePath" startOffset="50%" text-anchor="middle" dominant-baseline="middle">
+                            #OPENTOWORK
+                        </textPath>
+                    </text>
+                </svg>
+            </div>
+            <div class="flex flex-col gap-10">
+                <div class="flex flex-col gap-5">
+                    <h1 class="text-2xl md:text-3xl lg:text-5xl font-bold text-primary text-center">
+                        Software Developer 💻
+                    </h1>
+                    <p class="text-lg text-center">
+                        Transforming Ideas into Scalable, Efficient Solutions.
+                    </p>
+                </div>
+                <div class="relative z-30 btn btn-secondary inline-block w-1/2 group hover:scale-105 self-center">
+                    <a
+                            href="mailto:mschuchowski@gmx.de"
+                            class="w-full absolute z-10 bottom-1 left-0 btn btn-primary uppercase drop-shadow-lg group-hover:scale-105 text-center flex items-center justify-center"
+                    >
+                        Work with me
+                    </a>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="flex flex-col gap-10">
-      <div class="flex flex-col gap-5">
-        <h1 class="text-5xl font-bold text-primary">
-          Software Developer 💻
-        </h1>
-        <p
-          class="text-lg typewriter"
-        >
-          Transforming Ideas into Scalable, Efficient Solutions.
-        </p>
-      </div>
-      <!--<div class="relative z-30 btn btn-secondary inline-block w-1/3 group hover:scale-105">
-        <button
-          class="absolute z-10 bottom-1 left-0 btn btn-primary uppercase w-full drop-shadow-lg group/hover:scale-105">
-          Work with me
-        </button>
-      </div>-->
+
+    <div class="flex flex-col gap-20 w-full">
+        <h2 class="text-secondary text-xl md:text-2xl lg:text-4xl font-bold text-center w-full">Professional Track
+            Record</h2>
+        <!-- Timeline -->
+        <ul class="timeline timeline-vertical px-4">
+            <!-- Timeline Gourmet Wiki -->
+            <!--<li>
+              <div class="timeline-middle text-secondary">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                  class="h-5 w-5"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </div>
+              <div class="timeline-end timeline-box text-lg">
+                <p>
+                  This project is a modern cooking app developed using the Django framework. It goes far beyond traditional
+                  recipe websites by combining detailed, structured recipes with a built-in culinary wiki, interactive features,
+                  and smart tools to support learning and creativity in the kitchen.
+
+                  After transitioning from a career as a professional chef to software development, I wanted to merge my passion
+                  for cooking with my growing expertise in tech. This app is the result—a platform designed to empower both
+                  hobby
+                  cooks and professionals with the knowledge, inspiration, and digital tools they need to thrive in the kitchen.
+                </p>
+              </div>
+              <div class="timeline-start mb-10 md:text-end">
+                <time class="text-lg">Gourmet Wiki</time>
+                <div class="text-lg text-secondary"><a href="https://www.gourmetwiki.net/" target="_blank">www.gourmetwiki.net</a></div>
+                Modern Cooking App
+              </div>
+              <hr/>
+            </li>-->
+            <!-- Timeline Concrete Lab 360 -->
+            <li class="w-full md:w-sm justify-end grid-cols-1! mx-auto">
+                <hr/>
+                <div class="timeline-middle text-secondary">
+                    <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 20 20"
+                            fill="currentColor"
+                            class="h-5 w-5"
+                    >
+                        <path
+                                fill-rule="evenodd"
+                                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                                clip-rule="evenodd"
+                        />
+                    </svg>
+                </div>
+                <div class="timeline-start mb-10 md:text-end w-full">
+                    <p class="text-lg text-primary font-bold">Concrete Lab 360</p>
+                    <p>Concrete Business Management Software</p>
+                    <p class="font-bold">2025</p>
+                </div>
+                <hr/>
+            </li>
+            <!-- Timeline Skin & Ink Tattoo Studio -->
+            <li class="w-full md:w-sm justify-end grid-cols-1! mx-auto">
+                <hr/>
+                <div class="timeline-middle text-secondary">
+                    <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 20 20"
+                            fill="currentColor"
+                            class="h-5 w-5"
+                    >
+                        <path
+                                fill-rule="evenodd"
+                                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                                clip-rule="evenodd"
+                        />
+                    </svg>
+                </div>
+                <div class="timeline-start mb-10 md:text-end w-full">
+                    <p class="text-lg text-primary font-bold">Fact Bot</p>
+                    <a class="text-lg text-accent hover:text-secondary"
+                       href="https://github.com/schuggermi/fact_reel_bot"
+                       target="_blank">
+                        github.com/schuggermi/fact_reel_bot
+                    </a>
+                    <p>Instagram Fact Reel Generator Bot</p>
+                    <p class="font-bold">2025</p>
+                </div>
+                <hr/>
+            </li>
+            <!-- Timeline Skin & Ink Tattoo Studio -->
+            <li class="w-full md:w-sm justify-end grid-cols-1! mx-auto">
+                <hr/>
+                <div class="timeline-middle text-secondary">
+                    <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 20 20"
+                            fill="currentColor"
+                            class="h-5 w-5"
+                    >
+                        <path
+                                fill-rule="evenodd"
+                                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                                clip-rule="evenodd"
+                        />
+                    </svg>
+                </div>
+                <div class="timeline-start mb-10 md:text-end w-full">
+                    <p class="text-lg text-primary font-bold">Skin & Ink (Website)</p>
+                    <a class="text-lg text-accent hover:text-secondary" href="https://skin-and-ink.com/"
+                       target="_blank">
+                        skin-and-ink.com
+                    </a>
+                    <p>Tattoo studio</p>
+                    <p class="font-bold">2025</p>
+                </div>
+                <hr/>
+            </li>
+            <!-- Timeline SOHO Mannheim -->
+            <li class="w-full md:w-sm justify-end grid-cols-1! mx-auto">
+                <hr/>
+                <div class="timeline-middle text-secondary">
+                    <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 20 20"
+                            fill="currentColor"
+                            class="h-5 w-5"
+                    >
+                        <path
+                                fill-rule="evenodd"
+                                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                                clip-rule="evenodd"
+                        />
+                    </svg>
+                </div>
+                <div class="timeline-start mb-10 md:text-end w-full">
+                    <p class="text-lg text-primary font-bold">SOHO Mannheim (Website)</p>
+                    <a class="text-lg text-accent hover:text-secondary" href="https://www.soho-club.de/"
+                       target="_blank">
+                        soho-club.de
+                    </a>
+                    <p>Club / Bar / Lounge</p>
+                    <p class="font-bold">2024</p>
+                </div>
+                <hr/>
+            </li>
+            <!-- Timeline ComNET -->
+            <li class="w-full md:w-sm justify-end grid-cols-1! mx-auto">
+                <hr/>
+                <div class="timeline-middle text-secondary">
+                    <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 20 20"
+                            fill="currentColor"
+                            class="h-5 w-5"
+                    >
+                        <path
+                                fill-rule="evenodd"
+                                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                                clip-rule="evenodd"
+                        />
+                    </svg>
+                </div>
+                <div class="timeline-start mb-10 md:text-end w-full">
+                    <p class="text-lg text-primary font-bold">comNET GmbH (Former Employer)</p>
+                    <a class="text-lg text-accent hover:text-secondary" href="https://www.comnet-solutions.de/"
+                       target="_blank">
+                        comnet-solutions.de
+                    </a>
+                    <p>Software Developer</p>
+                    <p class="font-bold">1 Year 10 Months</p>
+                </div>
+                <hr/>
+            </li>
+            <!-- Timeline LeWagon -->
+            <li class="w-full md:w-sm justify-end grid-cols-1! mx-auto">
+                <hr/>
+                <div class="timeline-middle text-secondary">
+                    <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 20 20"
+                            fill="currentColor"
+                            class="h-5 w-5"
+                    >
+                        <path
+                                fill-rule="evenodd"
+                                d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                                clip-rule="evenodd"
+                        />
+                    </svg>
+                </div>
+                <div class="timeline-start mb-10 md:text-end w-full">
+                    <p class="text-lg text-primary font-bold">LeWagon Berlin</p>
+                    <a class="text-lg text-accent hover:text-secondary"
+                       href="https://www.lewagon.com/?referrer=Q2pxoKrArQi5EMjnbWk5bAjp&referrer_id=21&source=referral-link"
+                       target="_blank">
+                        lewagon.com
+                    </a>
+                    <p>Full-Stack Developer (Bootcamp)</p>
+                    <p class="font-bold">9 Weeks</p>
+                </div>
+                <hr/>
+            </li>
+        </ul>
     </div>
-  </div>
-</div>
-
-<div class="flex flex-col gap-20">
-  <h2 class="text-secondary text-4xl font-bold text-center w-full">Professional Track Record</h2>
-  <!-- Timeline -->
-  <ul class="timeline timeline-vertical">
-    <!-- Timeline Gourmet Wiki -->
-    <!--<li>
-      <div class="timeline-middle text-secondary">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 20 20"
-          fill="currentColor"
-          class="h-5 w-5"
-        >
-          <path
-            fill-rule="evenodd"
-            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-            clip-rule="evenodd"
-          />
-        </svg>
-      </div>
-      <div class="timeline-end timeline-box text-lg">
-        <p>
-          This project is a modern cooking app developed using the Django framework. It goes far beyond traditional
-          recipe websites by combining detailed, structured recipes with a built-in culinary wiki, interactive features,
-          and smart tools to support learning and creativity in the kitchen.
-
-          After transitioning from a career as a professional chef to software development, I wanted to merge my passion
-          for cooking with my growing expertise in tech. This app is the result—a platform designed to empower both
-          hobby
-          cooks and professionals with the knowledge, inspiration, and digital tools they need to thrive in the kitchen.
-        </p>
-      </div>
-      <div class="timeline-start mb-10 md:text-end">
-        <time class="text-lg">Gourmet Wiki</time>
-        <div class="text-lg text-secondary"><a href="https://www.gourmetwiki.net/" target="_blank">www.gourmetwiki.net</a></div>
-        Modern Cooking App
-      </div>
-      <hr/>
-    </li>-->
-    <!-- Timeline Concrete Lab 360 -->
-    <li>
-      <hr/>
-      <div class="timeline-middle text-secondary">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 20 20"
-          fill="currentColor"
-          class="h-5 w-5"
-        >
-          <path
-            fill-rule="evenodd"
-            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-            clip-rule="evenodd"
-          />
-        </svg>
-      </div>
-      <div class="timeline-end timeline-box text-lg">
-        <p>
-          A technical management tool built for a friend’s concrete company, designed to help technicians and managers
-          manage workflows, resources, and tasks efficiently.
-        </p>
-      </div>
-      <div class="timeline-start mb-10 md:text-end">
-        <p class="text-lg text-primary font-bold">Concrete Lab 360</p>
-        <p>Concrete Business Management Software</p>
-        <p class="font-bold">2025</p>
-      </div>
-      <hr/>
-    </li>
-    <!-- Timeline Skin & Ink Tattoo Studio -->
-    <li>
-      <hr/>
-      <div class="timeline-middle text-secondary">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 20 20"
-          fill="currentColor"
-          class="h-5 w-5"
-        >
-          <path
-            fill-rule="evenodd"
-            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-            clip-rule="evenodd"
-          />
-        </svg>
-      </div>
-      <div class="timeline-end timeline-box text-lg">
-        <p>
-          Built an automated Instagram Reel generator bot that transforms factual data into short, engaging video
-          content, streamlining the content creation process.
-        </p>
-      </div>
-      <div class="timeline-start mb-10 md:text-end">
-        <p class="text-lg text-primary font-bold">Fact Bot</p>
-        <a class="text-lg text-accent hover:text-secondary" href="https://github.com/schuggermi/fact_reel_bot"
-           target="_blank">
-          github.com/schuggermi/fact_reel_bot
-        </a>
-        <p>Instagram Fact Reel Generator Bot</p>
-        <p class="font-bold">2025</p>
-      </div>
-      <hr/>
-    </li>
-    <!-- Timeline Skin & Ink Tattoo Studio -->
-    <li>
-      <hr/>
-      <div class="timeline-middle text-secondary">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 20 20"
-          fill="currentColor"
-          class="h-5 w-5"
-        >
-          <path
-            fill-rule="evenodd"
-            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-            clip-rule="evenodd"
-          />
-        </svg>
-      </div>
-      <div class="timeline-end timeline-box text-lg">
-        <p>
-          Designed and developed a responsive, user-friendly website for a tattoo studio in Pattaya, using modern web
-          technologies to showcase artwork, attract new clients, and simplify appointment bookings.
-        </p>
-      </div>
-      <div class="timeline-start mb-10 md:text-end">
-        <p class="text-lg text-primary font-bold">Skin & Ink (Website)</p>
-        <a class="text-lg text-accent hover:text-secondary" href="https://skin-and-ink.com/" target="_blank">
-          skin-and-ink.com
-        </a>
-        <p>Tattoo studio</p>
-        <p class="font-bold">2025</p>
-      </div>
-      <hr/>
-    </li>
-    <!-- Timeline SOHO Mannheim -->
-    <li>
-      <hr/>
-      <div class="timeline-middle text-secondary">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 20 20"
-          fill="currentColor"
-          class="h-5 w-5"
-        >
-          <path
-            fill-rule="evenodd"
-            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-            clip-rule="evenodd"
-          />
-        </svg>
-      </div>
-      <div class="timeline-end timeline-box text-lg">
-        <p>
-          Designed and developed a responsive, user-friendly website for a local club, implementing modern web
-          technologies to enhance member engagement and streamline event management.
-        </p>
-      </div>
-      <div class="timeline-start mb-10 md:text-end">
-        <p class="text-lg text-primary font-bold">SOHO Mannheim (Website)</p>
-        <a class="text-lg text-accent hover:text-secondary" href="https://www.soho-club.de/" target="_blank">
-          soho-club.de
-        </a>
-        <p>Club / Bar / Lounge</p>
-        <p class="font-bold">2024</p>
-      </div>
-      <hr/>
-    </li>
-    <!-- Timeline ComNET -->
-    <li>
-      <hr/>
-      <div class="timeline-middle text-secondary">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 20 20"
-          fill="currentColor"
-          class="h-5 w-5"
-        >
-          <path
-            fill-rule="evenodd"
-            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-            clip-rule="evenodd"
-          />
-        </svg>
-      </div>
-      <div class="timeline-end timeline-box text-lg">
-        <p>
-          Developed and maintained custom monitoring plugins and web applications using Django and CheckMK, automated
-          workflows, and managed containerized environments with Docker, leveraging strong Python, JavaScript, and
-          version control expertise.
-        </p>
-      </div>
-      <div class="timeline-start mb-10 md:text-end">
-        <p class="text-lg text-primary font-bold">comNET GmbH (Former Employer)</p>
-        <a class="text-lg text-accent hover:text-secondary" href="https://www.comnet-solutions.de/" target="_blank">
-          comnet-solutions.de
-        </a>
-        <p>Software Developer</p>
-        <p class="font-bold">1 Year 10 Months</p>
-      </div>
-      <hr/>
-    </li>
-    <!-- Timeline LeWagon -->
-    <li>
-      <hr/>
-      <div class="timeline-middle text-secondary">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 20 20"
-          fill="currentColor"
-          class="h-5 w-5"
-        >
-          <path
-            fill-rule="evenodd"
-            d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
-            clip-rule="evenodd"
-          />
-        </svg>
-      </div>
-      <div class="timeline-end timeline-box text-lg">
-        <p>
-          Completed a 9-week full-time intensive full-stack coding bootcamp at LeWagon Berlin,
-          mastering web technologies like JavaScript, Ruby on Rails, SQL, and Git. Designed, developed, and deployed a
-          clone of AirBnB and a Rails prototype of SaveInstruct — a task management software using NFC technology to
-          track tasks across workstations, created as my course pitch project.
-        </p>
-      </div>
-      <div class="timeline-start mb-10 md:text-end">
-        <p class="text-lg text-primary font-bold">LeWagon Berlin</p>
-        <a class="text-lg text-accent hover:text-secondary"
-           href="https://www.lewagon.com/?referrer=Q2pxoKrArQi5EMjnbWk5bAjp&referrer_id=21&source=referral-link"
-           target="_blank">
-          lewagon.com
-        </a>
-        <p>Full-Stack Developer (Bootcamp)</p>
-        <p class="font-bold">9 Weeks</p>
-      </div>
-      <hr/>
-    </li>
-  </ul>
 </div>
 
 <!-- Footer -->
-<footer class="w-full mt-auto">
-  <h2>Social Media</h2>
-  <div class="menu menu-horizontal gap-2">
-    <!-- Git Hub -->
-    <a href="https://github.com/schuggermi" target="_blank">
-      <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"
-           class="text-accent hover:text-secondary cursor-pointer">
-        <path
-          fill="currentColor"
-          d="M16,2.345c7.735,0,14,6.265,14,14-.002,6.015-3.839,11.359-9.537,13.282-.7,.14-.963-.298-.963-.665,0-.473,.018-1.978,.018-3.85,0-1.312-.437-2.152-.945-2.59,3.115-.35,6.388-1.54,6.388-6.912,0-1.54-.543-2.783-1.435-3.762,.14-.35,.63-1.785-.14-3.71,0,0-1.173-.385-3.85,1.435-1.12-.315-2.31-.472-3.5-.472s-2.38,.157-3.5,.472c-2.677-1.802-3.85-1.435-3.85-1.435-.77,1.925-.28,3.36-.14,3.71-.892,.98-1.435,2.24-1.435,3.762,0,5.355,3.255,6.563,6.37,6.913-.403,.35-.77,.963-.893,1.872-.805,.368-2.818,.963-4.077-1.155-.263-.42-1.05-1.452-2.152-1.435-1.173,.018-.472,.665,.017,.927,.595,.332,1.277,1.575,1.435,1.978,.28,.787,1.19,2.293,4.707,1.645,0,1.173,.018,2.275,.018,2.607,0,.368-.263,.787-.963,.665-5.719-1.904-9.576-7.255-9.573-13.283,0-7.735,6.265-14,14-14Z"></path>
-      </svg>
-    </a>
-    <!-- Linked In -->
-    <a href="https://www.linkedin.com/in/mschuchowski/" target="_blank">
-      <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"
-           class="text-accent hover:text-secondary cursor-pointer">
-        <path
-          d="M26.111,3H5.889c-1.595,0-2.889,1.293-2.889,2.889V26.111c0,1.595,1.293,2.889,2.889,2.889H26.111c1.595,0,2.889-1.293,2.889-2.889V5.889c0-1.595-1.293-2.889-2.889-2.889ZM10.861,25.389h-3.877V12.87h3.877v12.519Zm-1.957-14.158c-1.267,0-2.293-1.034-2.293-2.31s1.026-2.31,2.293-2.31,2.292,1.034,2.292,2.31-1.026,2.31-2.292,2.31Zm16.485,14.158h-3.858v-6.571c0-1.802-.685-2.809-2.111-2.809-1.551,0-2.362,1.048-2.362,2.809v6.571h-3.718V12.87h3.718v1.686s1.118-2.069,3.775-2.069,4.556,1.621,4.556,4.975v7.926Z"
-          fill="currentColor"
-          fill-rule="evenodd"></path>
-      </svg>
-    </a>
-    <!-- Instagram -->
-    <a href="https://www.instagram.com/schuggermi/" target="_blank">
-      <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"
-           class="text-accent hover:text-secondary cursor-pointer">
-        <path
-          fill="currentColor"
-          d="M10.202,2.098c-1.49,.07-2.507,.308-3.396,.657-.92,.359-1.7,.84-2.477,1.619-.776,.779-1.254,1.56-1.61,2.481-.345,.891-.578,1.909-.644,3.4-.066,1.49-.08,1.97-.073,5.771s.024,4.278,.096,5.772c.071,1.489,.308,2.506,.657,3.396,.359,.92,.84,1.7,1.619,2.477,.779,.776,1.559,1.253,2.483,1.61,.89,.344,1.909,.579,3.399,.644,1.49,.065,1.97,.08,5.771,.073,3.801-.007,4.279-.024,5.773-.095s2.505-.309,3.395-.657c.92-.36,1.701-.84,2.477-1.62s1.254-1.561,1.609-2.483c.345-.89,.579-1.909,.644-3.398,.065-1.494,.081-1.971,.073-5.773s-.024-4.278-.095-5.771-.308-2.507-.657-3.397c-.36-.92-.84-1.7-1.619-2.477s-1.561-1.254-2.483-1.609c-.891-.345-1.909-.58-3.399-.644s-1.97-.081-5.772-.074-4.278,.024-5.771,.096m.164,25.309c-1.365-.059-2.106-.286-2.6-.476-.654-.252-1.12-.557-1.612-1.044s-.795-.955-1.05-1.608c-.192-.494-.423-1.234-.487-2.599-.069-1.475-.084-1.918-.092-5.656s.006-4.18,.071-5.656c.058-1.364,.286-2.106,.476-2.6,.252-.655,.556-1.12,1.044-1.612s.955-.795,1.608-1.05c.493-.193,1.234-.422,2.598-.487,1.476-.07,1.919-.084,5.656-.092,3.737-.008,4.181,.006,5.658,.071,1.364,.059,2.106,.285,2.599,.476,.654,.252,1.12,.555,1.612,1.044s.795,.954,1.051,1.609c.193,.492,.422,1.232,.486,2.597,.07,1.476,.086,1.919,.093,5.656,.007,3.737-.006,4.181-.071,5.656-.06,1.365-.286,2.106-.476,2.601-.252,.654-.556,1.12-1.045,1.612s-.955,.795-1.608,1.05c-.493,.192-1.234,.422-2.597,.487-1.476,.069-1.919,.084-5.657,.092s-4.18-.007-5.656-.071M21.779,8.517c.002,.928,.755,1.679,1.683,1.677s1.679-.755,1.677-1.683c-.002-.928-.755-1.679-1.683-1.677,0,0,0,0,0,0-.928,.002-1.678,.755-1.677,1.683m-12.967,7.496c.008,3.97,3.232,7.182,7.202,7.174s7.183-3.232,7.176-7.202c-.008-3.97-3.233-7.183-7.203-7.175s-7.182,3.233-7.174,7.203m2.522-.005c-.005-2.577,2.08-4.671,4.658-4.676,2.577-.005,4.671,2.08,4.676,4.658,.005,2.577-2.08,4.671-4.658,4.676-2.577,.005-4.671-2.079-4.676-4.656h0"></path>
-      </svg>
-    </a>
-  </div>
+<footer class="container mx-auto mt-auto">
+    <div class="flex flex-col md:flex-row justify-between items-center">
+        <p>© 2025 Michael Schuchowski</p>
+        <div class="menu menu-horizontal gap-2">
+            <!-- Git Hub -->
+            <a href="https://github.com/schuggermi" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"
+                     class="text-accent hover:text-secondary cursor-pointer">
+                    <path
+                            fill="currentColor"
+                            d="M16,2.345c7.735,0,14,6.265,14,14-.002,6.015-3.839,11.359-9.537,13.282-.7,.14-.963-.298-.963-.665,0-.473,.018-1.978,.018-3.85,0-1.312-.437-2.152-.945-2.59,3.115-.35,6.388-1.54,6.388-6.912,0-1.54-.543-2.783-1.435-3.762,.14-.35,.63-1.785-.14-3.71,0,0-1.173-.385-3.85,1.435-1.12-.315-2.31-.472-3.5-.472s-2.38,.157-3.5,.472c-2.677-1.802-3.85-1.435-3.85-1.435-.77,1.925-.28,3.36-.14,3.71-.892,.98-1.435,2.24-1.435,3.762,0,5.355,3.255,6.563,6.37,6.913-.403,.35-.77,.963-.893,1.872-.805,.368-2.818,.963-4.077-1.155-.263-.42-1.05-1.452-2.152-1.435-1.173,.018-.472,.665,.017,.927,.595,.332,1.277,1.575,1.435,1.978,.28,.787,1.19,2.293,4.707,1.645,0,1.173,.018,2.275,.018,2.607,0,.368-.263,.787-.963,.665-5.719-1.904-9.576-7.255-9.573-13.283,0-7.735,6.265-14,14-14Z"></path>
+                </svg>
+            </a>
+            <!-- Linked In -->
+            <a href="https://www.linkedin.com/in/mschuchowski/" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"
+                     class="text-accent hover:text-secondary cursor-pointer">
+                    <path
+                            d="M26.111,3H5.889c-1.595,0-2.889,1.293-2.889,2.889V26.111c0,1.595,1.293,2.889,2.889,2.889H26.111c1.595,0,2.889-1.293,2.889-2.889V5.889c0-1.595-1.293-2.889-2.889-2.889ZM10.861,25.389h-3.877V12.87h3.877v12.519Zm-1.957-14.158c-1.267,0-2.293-1.034-2.293-2.31s1.026-2.31,2.293-2.31,2.292,1.034,2.292,2.31-1.026,2.31-2.292,2.31Zm16.485,14.158h-3.858v-6.571c0-1.802-.685-2.809-2.111-2.809-1.551,0-2.362,1.048-2.362,2.809v6.571h-3.718V12.87h3.718v1.686s1.118-2.069,3.775-2.069,4.556,1.621,4.556,4.975v7.926Z"
+                            fill="currentColor"
+                            fill-rule="evenodd"></path>
+                </svg>
+            </a>
+            <!-- Instagram -->
+            <a href="https://www.instagram.com/schuggermi/" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"
+                     class="text-accent hover:text-secondary cursor-pointer">
+                    <path
+                            fill="currentColor"
+                            d="M10.202,2.098c-1.49,.07-2.507,.308-3.396,.657-.92,.359-1.7,.84-2.477,1.619-.776,.779-1.254,1.56-1.61,2.481-.345,.891-.578,1.909-.644,3.4-.066,1.49-.08,1.97-.073,5.771s.024,4.278,.096,5.772c.071,1.489,.308,2.506,.657,3.396,.359,.92,.84,1.7,1.619,2.477,.779,.776,1.559,1.253,2.483,1.61,.89,.344,1.909,.579,3.399,.644,1.49,.065,1.97,.08,5.771,.073,3.801-.007,4.279-.024,5.773-.095s2.505-.309,3.395-.657c.92-.36,1.701-.84,2.477-1.62s1.254-1.561,1.609-2.483c.345-.89,.579-1.909,.644-3.398,.065-1.494,.081-1.971,.073-5.773s-.024-4.278-.095-5.771-.308-2.507-.657-3.397c-.36-.92-.84-1.7-1.619-2.477s-1.561-1.254-2.483-1.609c-.891-.345-1.909-.58-3.399-.644s-1.97-.081-5.772-.074-4.278,.024-5.771,.096m.164,25.309c-1.365-.059-2.106-.286-2.6-.476-.654-.252-1.12-.557-1.612-1.044s-.795-.955-1.05-1.608c-.192-.494-.423-1.234-.487-2.599-.069-1.475-.084-1.918-.092-5.656s.006-4.18,.071-5.656c.058-1.364,.286-2.106,.476-2.6,.252-.655,.556-1.12,1.044-1.612s.955-.795,1.608-1.05c.493-.193,1.234-.422,2.598-.487,1.476-.07,1.919-.084,5.656-.092,3.737-.008,4.181,.006,5.658,.071,1.364,.059,2.106,.285,2.599,.476,.654,.252,1.12,.555,1.612,1.044s.795,.954,1.051,1.609c.193,.492,.422,1.232,.486,2.597,.07,1.476,.086,1.919,.093,5.656,.007,3.737-.006,4.181-.071,5.656-.06,1.365-.286,2.106-.476,2.601-.252,.654-.556,1.12-1.045,1.612s-.955,.795-1.608,1.05c-.493,.192-1.234,.422-2.597,.487-1.476,.069-1.919,.084-5.657,.092s-4.18-.007-5.656-.071M21.779,8.517c.002,.928,.755,1.679,1.683,1.677s1.679-.755,1.677-1.683c-.002-.928-.755-1.679-1.683-1.677,0,0,0,0,0,0-.928,.002-1.678,.755-1.677,1.683m-12.967,7.496c.008,3.97,3.232,7.182,7.202,7.174s7.183-3.232,7.176-7.202c-.008-3.97-3.233-7.183-7.203-7.175s-7.182,3.233-7.174,7.203m2.522-.005c-.005-2.577,2.08-4.671,4.658-4.676,2.577-.005,4.671,2.08,4.676,4.658,.005,2.577-2.08,4.671-4.658,4.676-2.577,.005-4.671-2.079-4.676-4.656h0"></path>
+                </svg>
+            </a>
+        </div>
+    </div>
 </footer>
 
 <script src="js/app.js"></script>
