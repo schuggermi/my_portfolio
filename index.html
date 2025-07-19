@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css"/>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@5/themes.css" rel="stylesheet" type="text/css"/>
+<!--    <link href="https://cdn.jsdelivr.net/npm/daisyui@5/themes.css" rel="stylesheet" type="text/css"/>-->
 
     <meta name="description" content="Transforming Ideas into Scalable, Efficient Solutions.">
 
@@ -144,7 +144,8 @@
         <!-- Timeline -->
         <ul class="timeline timeline-vertical px-4">
             <!-- Timeline Gourmet Wiki -->
-            <li>
+            <li class="w-full md:w-sm justify-end grid-cols-1! mx-auto">
+                <hr/>
                 <div class="timeline-middle text-secondary">
                     <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -159,11 +160,11 @@
                         />
                     </svg>
                 </div>
-                <div class="timeline-start mb-10 md:text-end">
-                    <time class="text-lg">Gourmet Wiki</time>
-                    <div class="text-lg text-secondary"><a href="https://www.gourmetwiki.net/" target="_blank">www.gourmetwiki.net</a>
-                    </div>
-                    Modern Cooking App
+                <div class="timeline-start mb-10 md:text-end w-full">
+                    <p class="text-lg text-primary font-bold">Gourmet Wiki</p>
+                    <a href="https://gourmet-wiki.fly.dev/" target="_blank" class="text-lg text-accent hover:text-secondary">gourmet-wiki.fly.dev/</a>
+                    <p>Modern Cooking App</p>
+                    <p class="font-bold">2025</p>
                 </div>
                 <hr/>
             </li>
